@@ -1,0 +1,66 @@
+.login{
+    display: flex;
+    flex-direction: row;
+}
+
+.loginLeft, .loginRight{
+    width: 50%;
+}
+
+.loginRight{
+    display: block;
+    background-image: url("../image/loginPage.png")  ;
+    background-size: cover;
+    height: 100vh;
+}
+
+.loginLeft > form{
+    padding: 0% 15%;
+}
+
+.btnLogin{
+    margin-top: 2rem;
+    border-radius: 4px;
+    width: 100%;
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+.btnLogin:hover{
+    background-color: black;
+}
+.btnLogin:disabled{
+    background-color: black;
+}
+
+
+.error{
+    color: #e00;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.titleImage {
+    text-align:left;
+    font-size:36px;
+    padding:30% 15% 0% 32%;
+    color:white;
+    font-weight:700
+}
+.titleLogin{
+    text-align:center;
+    font-size:36px;
+    padding-top:30%;
+    font-weight:700
+}
+@media (max-width: 800px) {
+    .loginLeft {
+        width: 100%;
+    }
+    .loginRight{
+       display: none;
+    }
+    .loginLeft > form {
+        padding: 0% 10%;
+    }
+  }
