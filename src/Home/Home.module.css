@@ -62,7 +62,7 @@ p{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
-@media only screen and (max-width:739px){
+@media (max-width:800px){
     .content{
     grid-template-columns: 1fr;
     grid-template-areas: 
